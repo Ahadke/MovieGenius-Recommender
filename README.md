@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ## **Usage**
 
 Run the app locally with:
-
+streamlit run app/streamlit_app.py
 
 Enter a valid user ID from the dataset to receive personalized hybrid movie recommendations.
 
