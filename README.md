@@ -1,83 +1,34 @@
-MovieGenius: Hybrid Movie Recommender System
-This project demonstrates an advanced hybrid movie recommendation system built using the MovieLens 1M dataset. The dataset contains 1,000,209 anonymous ratings on approximately 3,900 movies by 6,040 users, providing a rich benchmark for recommender system development.
+# **MovieGenius: Hybrid Movie Recommender System**
 
-Project Overview
-MovieGenius implements four distinct recommendation approaches and combines their strengths to offer personalized movie suggestions:
+**MovieGenius** is a hybrid movie recommendation system leveraging content-based filtering, collaborative filtering, matrix factorization, and neural networks on the [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/1m/). Built with Python and Streamlit, this project offers personalized, interactive movie suggestions through a clean and cinematic user interface.
 
-Content-Based Filtering: Recommends movies similar in genre and features to a user's preferences.
+---
 
-Collaborative Filtering: Finds similar users by rating patterns and suggests their favorites.
+## **Project Overview**
 
-Matrix Factorization: Learns latent features jointly for users and items to predict preferences.
+This system combines four recommendation methods to provide comprehensive movie suggestions:
 
-Neural Network Model: Uses deep learning to capture complex user-movie interactions and features.
+- **Content-Based Filtering:** Recommends movies similar to the user's preferences based on genres and features.
+- **Collaborative Filtering:** Uses user-user similarities to predict individual tastes.
+- **Matrix Factorization:** Models latent factors for accurate predictions.
+- **Neural Network Model:** Captures complex user-item relationships to refine recommendations.
 
-The system is developed as an interactive web app using Streamlit, allowing users to enter their User ID and receive hybrid recommendations with a rich UI experience. The app features:
+The app features a cinematic blurred background with a fixed image, stylish white bold text, and real-time recommendations.
 
-Cinematic blurred fixed background with white bold text.
+---
 
-Simple input for user ID and instant recommendations.
+## **Dataset**
 
-Combined recommendations rendered prominently.
+The project uses the renowned [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/1m/), containing over one million ratings from more than 6,000 users on nearly 4,000 movies, widely utilized for recommender system benchmarking.
 
-Optionally, expandable views of individual model predictions.
+---
 
-Dataset
-The project uses the MovieLens 1M dataset:
+## **Requirements**
 
-Released in 2003, this dataset contains ~1 million ratings from ~6000 users on ~4000 movies.
+- Python 3.6 or higher
+- Streamlit
+- PyTorch
+- pandas, numpy, scikit-learn and other ML libraries
 
-The dataset includes user demographic info, movie titles, and genres.
-
-It is ideal for evaluating and benchmarking recommendation algorithms.
-
-Setup and Requirements
-System Requirements:
-Python 3.6 or later
-
-Jupyter Notebook (for exploration and model development)
-
-Streamlit (for app UI)
-
-Python Dependencies:
-Install latest versions of the following:
-
-pandas
-
-numpy
-
-scipy
-
-scikit-learn
-
-torch (PyTorch)
-
-streamlit
-
-Example installation:
-
-bash
-pip install pandas numpy scipy scikit-learn torch streamlit
-How to Use
-Launch the Streamlit app:
-
-bash
-streamlit run app/streamlit_app.py
-Enter a valid User ID from the dataset.
-
-Click “Get Recommendations” to see hybrid movie suggestions.
-
-Optionally explore individual recommendation models.
-
-Future Work
-Add onboarding flows for new users to rate sample movies and gather preferences.
-
-Integrate Bollywood-specific movie datasets and metadata.
-
-Implement user login and persistent profiles.
-
-Incorporate richer movie details, reviews, and interactivity.
-
-License
-This project is released under the MIT License. See LICENSE file for details.
+Install dependencies via:
 
