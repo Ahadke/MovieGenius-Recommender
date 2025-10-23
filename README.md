@@ -31,4 +31,34 @@ The project uses the renowned [MovieLens 1M dataset](https://grouplens.org/datas
 - pandas, numpy, scikit-learn and other ML libraries
 
 Install dependencies via:
+pip install -r requirements.txt
+
+
+---
+
+## **Usage**
+
+Run the app locally with:
+
+
+Enter a valid user ID from the dataset to receive personalized hybrid movie recommendations.
+
+---
+
+## **Future Enhancements**
+
+- Onboarding flows enabling new users to rate movies and select genres.
+- Integration of Bollywood-specific movie datasets.
+- User profiles with demographic details.
+- Rich movie metadata including reviews, trailers, and photos.
+
+---
+
+## **License**
+
+This project is open source under the **MIT License**. See the LICENSE file for details.
+
+---
+
+*This README provides an accessible overview to users and contributors, clearly communicating the project's purpose, usage, and roadmap.*
 
